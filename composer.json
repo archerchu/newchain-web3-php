@@ -1,0 +1,24 @@
+{
+    "name": "newtonproje/newchain-weweb3.php",
+    "description": "A php interface for interacting with the NewChain. https://www.newtonproject.org",
+    "require": {
+        "simplito/elliptic-php": "1.0.3",
+        "sc0vu/web3.php": "^0.1.4",
+        "kornrunner/ethereum-offline-raw-tx": "^0.2.3",
+        "furqansiddiqui/base58check-php": "^0.1.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "newton-app",
+            "email": "newton-app@newtonproject.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": { "NewChain\\" : "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "NewChain\\" : "test/" }
+    }
+}
