@@ -1,5 +1,5 @@
 {
-    "name": "newtonproje/newchain-weweb3.php",
+    "name": "newtonproject/newchain-web3.php",
     "description": "A php interface for interacting with the NewChain. https://www.newtonproject.org",
     "require": {
         "simplito/elliptic-php": "1.0.3",
